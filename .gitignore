@@ -20,4 +20,4 @@ Thumbs.db
 
 # Firebase Auth
 
-src/pages/firebase.js
+frontend/src/firebase.js
