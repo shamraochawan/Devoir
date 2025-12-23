@@ -1,0 +1,24 @@
+/my-clothing-shop
+├── /backend
+│   ├── /models
+│   │   └── Product.js       // The Schema (Blueprint)
+│   ├── /routes
+│   │   └── productRoutes.js // The API Endpoints (GET, POST, DELETE)
+│   ├── /uploads             // <--- REAL FOLDER where images are saved
+│   └── server.js            // Main server file (Setup Express & Multer)
+│
+├── /frontend
+│   ├── /public
+│   ├── /src
+│   │   ├── /components
+│   │   │   ├── Navbar.js
+│   │   │   └── ProductCard.js  // Your Card Design (Reusable)
+│   │   ├── /pages
+│   │   │   ├── Admin.js        // The Upload Form & Delete List
+│   │   │   ├── Home.js         // Shows "All" (Randomized)
+│   │   │   ├── Men.js          // Shows only Men
+│   │   │   └── Women.js        // Shows only Women
+│   │   ├── App.js              // Routing (Page switching)
+│   │   └── App.css             // Your styles
+│   └── package.json
+└── package.json
